@@ -1,0 +1,15 @@
+*.DS_Store
+*._*
+
+# Ignore basically everything...
+craft/app
+craft/config/redactor/
+craft/config/license.key
+craft/config/stub.config.dev.php
+craft/config/routes.php
+craft/plugins
+craft/storage
+craft/templates
+*web.config
+
+public/robots.txt
