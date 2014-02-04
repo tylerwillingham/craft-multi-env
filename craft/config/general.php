@@ -9,7 +9,7 @@
  */
 
 $defaults = array(
-	'actionTrigger'                         => 'action',
+    'actionTrigger'                         => 'action',
     'activeAccountFailurePath'              => NULL,
     'activateAccountSuccessPath'            => NULL,
     'allowedFileExtensions'                 => '7z, aiff, asf, avi, bmp, csv, doc, docx, fla, flv, gif, gz, gzip, htm, html, jpeg, jpg, mid, mov, mp3, mp4, m4a, m4v, mpc, mpeg, mpg, ods, odt, ogg, pdf, png, ppt, pptx, pxd, qt, ram, rar, rm, rmi, rmvb, rtf, sdc, sitd, svg, swf, sxc, sxw, tar, tgz, tif, tiff, txt, vsd, wav, webm, wma, wmv, xls, xlsx, zip',
@@ -63,8 +63,8 @@ $defaults = array(
  */
 
 $multi_env_config = array(
-	'*'	=> $defaults,
-	CRAFT_ENVIRONMENT => $env_conf,
+    '*' => $defaults,
+    CRAFT_ENVIRONMENT => $env_conf,
 );
 
 // return config settings
