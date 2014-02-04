@@ -1,4 +1,7 @@
 <IfModule mod_rewrite.c>
+	# Set the environment [Local, Dev, Staging, ClientStaging, Prod]
+	SetEnv ENV 'Dev'
+
 	RewriteEngine On
 
 	# Send would-be 404 requests to Craft
