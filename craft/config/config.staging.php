@@ -5,11 +5,20 @@
  */
 
 $env_conf = array(
+    // Config overrides
     'devMode'   => true,
 
+    // Environment Variables
+    'environmentVariables'  => array(
+        'siteUrl'           => 'http://clientsite.yoursite.com',
+        'fileSystemPath'    => '/var/www/vhosts/clientsite/public/',
+    ),
+
     // Database
-    'server'    => 'localhost',
-    'user'      => '',
-    'password'  => '',
-    'database'  => '',
+    'dbConfig'  => array(
+        'server'    => '',
+        'user'      => '',
+        'password'  => '',
+        'database'  => '',
+    ),
 );

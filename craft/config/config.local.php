@@ -1,15 +1,24 @@
 <?php
 
 /**
- * Local Development Environment Settings
+ * Local Dev Environment Settings
  */
 
 $env_conf = array(
+    // Config overrides
     'devMode'   => true,
 
+    // Environment Variables
+    'environmentVariables'  => array(
+        'siteUrl'           => 'http://site.dev',
+        'fileSystemPath'    => '/Development/site/public/',
+    ),
+
     // Database
-    'server'    => 'localhost',
-    'user'      => '',
-    'password'  => '',
-    'database'  => '',
+    'dbConfig'  => array(
+        'server'    => '',
+        'user'      => '',
+        'password'  => '',
+        'database'  => '',
+    ),
 );
