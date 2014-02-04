@@ -1,2 +1,4 @@
 craft/storage*
 craft/config/license.key
+
+craft/config/stub.config.dev.php
